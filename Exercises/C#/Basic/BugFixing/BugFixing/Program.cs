@@ -39,7 +39,7 @@ namespace BugFixing
 
             // Zadání:
             // 1. Opravit chyby aby byl kód spustitelný
-            // 2. Pokusit se co nejvíc zefektivnit
+            // 2. Pokusit se co nejvíc zjednodyšit a zefektivnit
             // 3. Napsat podmínku, která zjistí zda je age dělitelná číslem 3
             // 4. Vypiš délku jména tak, aby byla součástí výpisu nakonci
             // bonus: předělat proměnné(name, catColor, age, nameInitial,favouriteCharacter) tak aby je zadával uživatel
@@ -50,7 +50,7 @@ namespace BugFixing
             string nameInitial = "A"
             int age = 20.0;
             bool favouriteCharacter = (char)36
-            char canDrinkAlcohol = false;
+            char isAdult = false;
            
             // Jelikož existuje více datových typů pro desetinné číslo musíme často hodnotu upřesnit pro konkrétní typ
             // U floatu se to dělá tak, že se na konec čísla přidá f
@@ -73,13 +73,13 @@ namespace BugFixing
             if (age >= 18)
             {
                 int x = 10;
-                canDrinkAlcohol = true;
+                isAdult = true;
             }
             x = x + 1;
 
             if (age < 18)
             {
-                canDrinkAlcohol = false;
+                isAdult = false;
             }
 
             // Konzole má 2 části 
@@ -92,7 +92,7 @@ namespace BugFixing
             // pojem syntaxe = to jak se něco píše/jak to vypadá
             // Pokud dáme před uvozovky znak $ lze do něj vkládat proměnné. syntaxe: {promena}
             // Pokud v textu použijeme \n  říkáme tím, že to co bude následovat bude na novém řádku
-            Console.WriteLine($"My name is: {name}\nMy name starts with: {nameInitial}\nI have a cute cat with {catColor} fur\nAge of my programming teacher Vitek is {age}\nVitek can drink alcohol:{canDrinkAlcohol}\nMy favourite character is {favouriteCharacter}");
+            Console.WriteLine($"My name is: {name}\nMy name starts with: {nameInitial}\nI have a cute cat with {catColor} fur\nAge of my programming teacher Vitek is {age}\nVitek can drink alcohol:{isAdult}\nMy favourite character is {favouriteCharacter}");
           
             Console.ForegroundColor = ConsoleColor.White;
         }

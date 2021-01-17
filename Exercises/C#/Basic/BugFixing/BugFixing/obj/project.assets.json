@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vitek\\source\\repos\\BugFixing\\BugFixing\\BugFixing.csproj",
+      "projectUniqueName": "C:\\Users\\vitek\\Documents\\Teach\\Teaching\\Exercises\\C#\\Basic\\BugFixing\\BugFixing\\BugFixing.csproj",
       "projectName": "BugFixing",
-      "projectPath": "C:\\Users\\vitek\\source\\repos\\BugFixing\\BugFixing\\BugFixing.csproj",
+      "projectPath": "C:\\Users\\vitek\\Documents\\Teach\\Teaching\\Exercises\\C#\\Basic\\BugFixing\\BugFixing\\BugFixing.csproj",
       "packagesPath": "C:\\Users\\vitek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vitek\\source\\repos\\BugFixing\\BugFixing\\obj\\",
+      "outputPath": "C:\\Users\\vitek\\Documents\\Teach\\Teaching\\Exercises\\C#\\Basic\\BugFixing\\BugFixing\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vitek\\AppData\\Roaming\\NuGet\\NuGet.Config",
