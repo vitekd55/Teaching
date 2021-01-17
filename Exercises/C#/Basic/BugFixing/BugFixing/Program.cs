@@ -92,7 +92,7 @@ namespace BugFixing
             // pojem syntaxe = to jak se něco píše/jak to vypadá
             // Pokud dáme před uvozovky znak $ lze do něj vkládat proměnné. syntaxe: {promena}
             // Pokud v textu použijeme \n  říkáme tím, že to co bude následovat bude na novém řádku
-            Console.WriteLine($"My name is: {name}\nMy name starts with: {nameInitial}\nI have a cute cat with {catColor} fur\nAge of my programming teacher Vitek is {age}\nVitek can drink alcohol:{isAdult}\nMy favourite character is {favouriteCharacter}");
+            Console.WriteLine($"My name is {name}\nMy name starts with {nameInitial}\nI have a cute cat with {catColor} fur\My age is {age}\nI am adult: {isAdult}\nMy favourite character is {favouriteCharacter}");
           
             Console.ForegroundColor = ConsoleColor.White;
         }

@@ -11,3 +11,9 @@ C:\Users\vitek\source\repos\BugFixing\BugFixing\bin\Debug\netcoreapp3.1\BugFixin
 C:\Users\vitek\source\repos\BugFixing\BugFixing\obj\Debug\netcoreapp3.1\BugFixing.dll
 C:\Users\vitek\source\repos\BugFixing\BugFixing\obj\Debug\netcoreapp3.1\BugFixing.pdb
 C:\Users\vitek\source\repos\BugFixing\BugFixing\obj\Debug\netcoreapp3.1\BugFixing.genruntimeconfig.cache
+C:\Users\vitek\Documents\Teach\Teaching\Exercises\C#\Basic\BugFixing\BugFixing\obj\Debug\netcoreapp3.1\BugFixing.csprojAssemblyReference.cache
+C:\Users\vitek\Documents\Teach\Teaching\Exercises\C#\Basic\BugFixing\BugFixing\obj\Debug\netcoreapp3.1\BugFixing.AssemblyInfoInputs.cache
+C:\Users\vitek\Documents\Teach\Teaching\Exercises\C#\Basic\BugFixing\BugFixing\obj\Debug\netcoreapp3.1\BugFixing.AssemblyInfo.cs
+C:\Users\vitek\Documents\Teach\Teaching\Exercises\C#\Basic\BugFixing\BugFixing\obj\Debug\netcoreapp3.1\BugFixing.csproj.CoreCompileInputs.cache
+C:\Users\vitek\Documents\Teach\Teaching\Exercises\C#\Basic\BugFixing\BugFixing\obj\Debug\netcoreapp3.1\BugFixing.dll
+C:\Users\vitek\Documents\Teach\Teaching\Exercises\C#\Basic\BugFixing\BugFixing\obj\Debug\netcoreapp3.1\BugFixing.pdb
