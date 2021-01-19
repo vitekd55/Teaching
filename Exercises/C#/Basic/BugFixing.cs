@@ -15,7 +15,7 @@ namespace BugFixing
             // V komentářích lze používat diakritiku
 
             // Toto je jednořádkový komentář
-            
+
             /* Toto 
              * je 
              * Více 
@@ -42,6 +42,7 @@ namespace BugFixing
             // 2. Pokusit se co nejvíc zjednodyšit a zefektivnit
             // 3. Napsat podmínku, která zjistí zda je age dělitelná číslem 3
             // 4. Vypiš délku jména tak, aby byla součástí výpisu nakonci
+            // 5. Najít nadbytečnou blbost a označit ji komentářem
             // bonus: předělat proměnné(name, catColor, age, nameInitial,favouriteCharacter) tak aby je zadával uživatel
 
             nameInitial = "N"
@@ -51,11 +52,11 @@ namespace BugFixing
             int age = 20.0;
             bool favouriteCharacter = (char)36
             char isAdult = false;
-           
+
             // Jelikož existuje více datových typů pro desetinné číslo musíme často hodnotu upřesnit pro konkrétní typ
             // U floatu se to dělá tak, že se na konec čísla přidá f
             float pi = 3.1459;
-            
+
             if (catColor = "red")
             {
                 catColor = "red"
@@ -88,12 +89,12 @@ namespace BugFixing
 
             // Úprava barvy textu konzole -> jen zajímavost
             Console.ForegroundColor = ConsoleColor.Green;
-    
+
             // pojem syntaxe = to jak se něco píše/jak to vypadá
             // Pokud dáme před uvozovky znak $ lze do něj vkládat proměnné. syntaxe: {promena}
             // Pokud v textu použijeme \n  říkáme tím, že to co bude následovat bude na novém řádku
             Console.WriteLine($"My name is {name}\nMy name starts with {nameInitial}\nI have a cute cat with {catColor} fur\My age is {age}\nI am adult: {isAdult}\nMy favourite character is {favouriteCharacter}");
-          
+
             Console.ForegroundColor = ConsoleColor.White;
         }
     }
