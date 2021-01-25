@@ -1,0 +1,57 @@
+/*
+colors can be set in many formats such as rgb() -> rgba(red,green,blue) ,rgba() -> rgba(red,green,blue, alpha/transparency),hex -> #fff;
+each line must be ended with semicoln ';'
+with css you have to be carful what you use because some browser doesn't support some features you can verify it on https://caniuse.com/
+many of css properties have positional variants for example you can set border what sets each side of element but you can also use for instance border-left
+*/
+
+/*---selectors---*/
+
+/*class*/
+
+.class {
+  color: red; /* sets color of text*/
+  margin: 5px; /* sets outer spacing from other elements | works only for block elements*/
+  padding: 16px /*sets inner spacing for child elements*/;
+}
+
+/*id*/
+
+#id {
+  background-color: #c03; /* sets color of background */
+  height: 64px; /* sets height of element */
+}
+
+/*tag*/
+
+h1 {
+  font-family: "Courier New", Courier, monospace; /* sets font */
+}
+
+/*child -> for each selector*/
+
+ul li {
+  border: 1px solid black; /* sets border of element to 1px width solid means its one streight line and black is color of border | this means its for top,left,bottom,right */
+}
+
+/* complete  list of selectors you can find here https://www.w3schools.com/cssref/css_selectors.asp */
+
+/*--selectors-events -> for each selector---*/
+
+.class:hover {
+  /* when mouse moves to element this css is added, when mouse is out is removed*/
+  text-decoration: underline; /* when mouse is over this element, text will be underlined*/
+}
+
+h1:focus {
+  /*this css is added when element is focused and removed when focus is lost*/
+}
+
+/*screen css dependency -> important for web responsivity*/
+
+@media (max-width: 300px) {
+  /* when max width of users device screen is 300 this will be added*/
+  .class {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--indicate we are using HTML version 5-->
+<html>
+  <head>
+    <!--here we can import our scripts, set meta tags(additional web info), import css,...-->
+    <meta name="description" content="" />
+    <!--meta tag containing description of web page, which is used for example when page is displayed from browser -->
+    <script src=""></script>
+    <!--importing some external script file-->
+    <link rel="stylesheet" href="style.css" />
+    <!--importing external css file-->
+
+    <style>
+      table,
+      th,
+      td {
+        /*to make table bordered*/
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <!--here we write all of our code
+        tag structures affects seo optimisation
+        tags are paired or self paired for exaple self paired is <br /> and paired is <h1></h1>
+        HTML is tree structured so elements are nested into other elements
+    -->
+    <h1>This is the main heading of the page</h1>
+    <h2>This is some sub heading h2</h2>
+    <h3>This is some sub heading h3</h3>
+    <h4>This is some sub heading h4</h4>
+    <h5>This is some sub heading h5</h5>
+    <h6>This is some sub heading h6</h6>
+    <p>This is a paragraph.</p>
+
+    <!--empty block element-->
+    <div></div>
+    <!--empty inline element-->
+    <span></span>
+    <!--tag for displaying image src is path of image, alt is short description-->
+
+    <img src="" alt="" />
+    <button>Button</button>
+
+    <!--tag to structure site to sections-->
+    <section id="about"></section>
+    <section id="products"></section>
+    <!--action is for instance php file which handles form data, method is type of submition POST/GET-->
+    <form action="" method="">
+      <!--input which allows user to select one of options-->
+      <select name="select" id="select">
+        <option value="a">A</option>
+        <option value="b">B</option>
+        <option value="c">C</option>
+        <option value="d">D</option>
+      </select>
+
+      <!--some example inputs-->
+      <input type="checkbox" name="" id="" />
+      <input type="color" name="" id="" />
+      <input type="date" name="" id="" />
+      <input type="password" name="" id="" />
+      <input type="text" />
+
+      <!--input for submitting form-->
+      <input type="submit" value="Submit" />
+    </form>
+
+    <!--tag for some text blocks-->
+    <article>
+      Here is an article Lorem ipsum, dolor sit amet consectetur adipisicing
+      elit. Inventore enim illum sint eligendi in at temporibus laborum facere
+      ab id, dicta dolore alias quam, doloremque architecto dolores vitae
+      accusantium nemo.
+    </article>
+
+    <!--dotted list-->
+    <ul>
+      <li>item</li>
+      <li>item</li>
+    </ul>
+
+    <!--numbered list-->
+    <ol>
+      <li>item</li>
+      <li>item</li>
+    </ol>
+
+    <table>
+      <!--table row-->
+      <tr>
+        <!--table header-->
+        <th>some 1</th>
+        <th>some 2</th>
+        <th>some 3</th>
+      </tr>
+      <tr>
+        <!--table column-->
+        <td>col 1</td>
+        <td>col 2</td>
+        <td>col 3</td>
+      </tr>
+      <tr>
+        <td>col 1</td>
+        <td>col 2</td>
+        <td>col 3</td>
+      </tr>
+    </table>
+    <!--ending of the page, mostly contains main info of page-->
+    <footer>
+      <!--entities are special characters syntax is &entitycode; for example copyright-->
+      <p>&copy;Vitek Dvorak</p>
+    </footer>
+    <!--all tags and descriptions you can find on https://www.w3schools.com/tags/-->
+  </body>
+</html>
