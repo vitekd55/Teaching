@@ -13,3 +13,9 @@
 - Openning times - HTML, CSS, JS, PHP, SQL
 - Services reservation system - HTML, CSS, JS,PHP, SQL
 - User registratio system - HTML, CSS, JS,PHP, SQL
+- Weather app - OpenWeater API, HTML, CSS, JS
+
+### Other
+
+- Web crawler - Python
+- Calculator - Assembler
